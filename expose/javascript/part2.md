@@ -14,3 +14,18 @@ B. student["Grad Year"]
 C. student.greeting()
 D. student["Favorite Teacher"].name
 E. student.courseLoad[0]
+13. A. '3' + 2 = '32' because the the string concatenates
+B. '3' - 2 = 1, 3 is treated as an int and subtracts
+C. 3 + null = 3, null is treated as a 0
+D. 3null, treats null as a string
+E. 4, true treated as a 1
+F. 0, both treated as a 0
+G. 3undefined, undefined treated as a string and concatenates
+H. NaN, '3' treated as an in and subtracting with an undefined number causes an Nan result
+14. A. True, treats '2' as an int
+B. False, compares the strings lexographically
+C. True, treats '2' as an int
+D. False, === checks if the two variables of the same type aswell
+E. False, treats true as a 1
+F. True, anything not 0 will be considered true when wrapped with a boolean
+15. == is the loose equality operator, which allows for types to change in order to fit the comparison context naturally. === however, is strict, and does not allow for type coersion, and will return false for any two differing types.
