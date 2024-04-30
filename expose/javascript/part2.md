@@ -29,3 +29,5 @@ D. False, === checks if the two variables of the same type aswell
 E. False, treats true as a 1
 F. True, anything not 0 will be considered true when wrapped with a boolean
 15. == is the loose equality operator, which allows for types to change in order to fit the comparison context naturally. === however, is strict, and does not allow for type coersion, and will return false for any two differing types.
+17. When modifyArray is called, array = [1,2,3] and callback = doSomething. An empty array is made called newArr, the the for loop runs for each integer inside of the first array and then calls doSomething with that int and mutiplies it by 2
+19. 1 4 3 2
